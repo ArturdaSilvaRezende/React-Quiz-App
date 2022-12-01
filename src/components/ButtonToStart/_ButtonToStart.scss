@@ -1,0 +1,7 @@
+.ButtonToStart {
+  @include button-question(rgba(0, 0, 0, 0.5), var(--white), var(--white));
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: -20px;
+}

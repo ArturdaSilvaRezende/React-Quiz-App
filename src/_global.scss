@@ -1,0 +1,66 @@
+//==================== global - class
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: -1;
+}
+
+.button-style {
+  margin: 50px 0 20px 0;
+  padding: 10px;
+  width: 120px;
+  background-color: var(--purple);
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  transition: 0.4s;
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  a {
+    color: var(--white);
+  }
+}
+
+.question__correct {
+  background-color: var(--li-bg) !important;
+}
+
+//==================== global - extends
+%background-image {
+  background: url("./assets/Learn-Reactjs.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+//==================== global - mixins
+@mixin title($blur) {
+  color: var(--white);
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-family: "Press Start 2P", cursive;
+  letter-spacing: 5px;
+  padding-top: 40px;
+  text-align: center;
+  text-shadow: 0 0 15px $blur;
+}
+
+@mixin button-question($bg, $border-color, $color-text) {
+  padding: 10px;
+  width: 120px;
+  background-color: $bg;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  transition: 0.4s;
+  margin: 30px 0 0 20px;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  a {
+    color: $color-text;
+  }
+}

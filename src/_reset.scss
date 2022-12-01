@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul > li {
+  list-style: none;
+  font-family: arial, sans-serif;
+}
+
+h2 {
+  font-family: arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --purple: #4242ff;
+  --white: #fff;
+  --dark: #000;
+  --html: #e34f26;
+  --css: #264de4;
+  --javascript-bg: #f0db4f;
+  --javascript-text: #323330;
+  --react: #61dbfb;
+  --li-bg: #271b2a;
+}

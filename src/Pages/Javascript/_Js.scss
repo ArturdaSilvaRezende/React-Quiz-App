@@ -1,0 +1,9 @@
+.js-page {
+  background-color: var(--javascript-bg);
+  min-height: 100vh;
+
+  h1 {
+    @include title(var(--white));
+    text-shadow: 1px 1px 4px var(--dark);
+  }
+}

@@ -1,0 +1,8 @@
+.html-page {
+  background-color: var(--html);
+  min-height: 100vh;
+
+  h1 {
+    @include title(var(--white));
+  }
+}
