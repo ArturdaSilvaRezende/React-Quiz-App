@@ -20,11 +20,10 @@ In the project directory, you can run:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- Sass 
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
 - TypeScript
 
 ## Author
